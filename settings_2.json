@@ -152,7 +152,7 @@
     ".monaco-list-row": "border-radius: 4px;",
     ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
   },
-  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.vertical": "auto",
   "explorer.sortOrder": "foldersNestsFiles",
   "explorer.fileNesting.patterns": {
     "package.json": ".eslint*, prettier*, package-lock*, tsconfig*, vite*, pnpm-lock*, bun.lockb, nest*",
@@ -228,5 +228,5 @@
     "WEBPUSH"
   ],
   "workbench.colorTheme": "Min Dark",
-  "workbench.statusBar.visible": false
+  "workbench.statusBar.visible": true
 }
